@@ -1,14 +1,12 @@
-# root level of CMake
-# cmake version
-cmake_minimum_required(VERSION 3.15...3.29)
+cmake_minimum_required(VERSION 3.29)
 
-# project staement
+# This is your project statement. You should always list languages;
+# Listing the version is nice here since it sets lots of useful variables
 project(
-    cmake_template
-    VERSION 0.1
-    DESCRIPTION "A simple CMake project template"
-    LANGUAGES CXX)
-set(MODERN_CMAKE_BUILD_TESTING ON)
+  cmake_template
+  VERSION 1.0
+  LANGUAGES CXX)
+
 
 add_subdirectory(src)
 add_subdirectory(app)
