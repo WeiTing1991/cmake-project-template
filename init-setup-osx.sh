@@ -10,6 +10,5 @@ mkdir -p build
 cmake  -B build -S . -DCMAKE_TOOLCHAIN_FILE=./VCPKG/scripts/buildsystems/vcpkg.cmake
 
 cd build
-mkdir bin
 
 make  -j16
