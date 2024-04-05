@@ -1,6 +1,14 @@
-# cmake project template
+# Cmake project template
+
+new start
+```bash
+git clone --recurse-submodules -j8 https://github.com/miredirex/cmake-vcpkg-example.git
+```
+vcpkg
+cmake
 
 ```bash
-git submodule https://github.com/microsoft/vcpkg.git
+git clone https://github.com/WeiTing1991/cmake-project-template.git
+git submodule update --init --recursive
+
 ```
-git clone --recurse-submodules https://github.com/miredirex/cmake-vcpkg-example.git
