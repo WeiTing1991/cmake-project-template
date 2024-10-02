@@ -1,9 +1,9 @@
 # Cmake Project Template
 
-simple cpp cmake project template with OpenGL
-use vcpkg as package manager 
+Simple cpp cmake project template with OpenGL
+use VCPKG as package manager 
 
-new start
+New start
 
 ```bash
 
